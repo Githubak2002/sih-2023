@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Eczar', serif;
+}
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Result component bg img */
+.result_bg_img{
+  
+  /* background: url('https://www.beyondblue.org.au/app_themes/reskin/images/mhc-bg0.svg');
+  background: url('https://www.beyondblue.org.au/app_themes/reskin/images/mhc-initiation.svg'); */
+  /* background: url('https://www.beyondblue.org.au/images/default-source/3.the-facts/mental-health-check-in-headerc0d0e67c8dcc4bfc81d772df319b1ab5.svg?sfvrsn=3f1cad35_2'); */
+  background-position-x: 80%;
+  background-position-y: 80%;
+  background-repeat: no-repeat;  
+
+}
+@media (min-width:620px){
+  .result_bg_img{
+    background: url('https://www.beyondblue.org.au/images/default-source/3.the-facts/mental-health-check-in-headerc0d0e67c8dcc4bfc81d772df319b1ab5.svg?sfvrsn=3f1cad35_2');
+    background-position-x: 98%;
+    background-position-y: 96%;
+    background-repeat: no-repeat;
+  }
+}
