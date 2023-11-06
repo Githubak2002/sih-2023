@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from './Nav'
 import Header2 from './Header2'
 import Header from './Header'
 import Promise from './Promise'
@@ -12,7 +11,6 @@ const Home = () => {
   return (
     <section className='max-w-[1280px] mx-auto '>
 
-      <Nav />   
       <Header />
       <Header2 />
      

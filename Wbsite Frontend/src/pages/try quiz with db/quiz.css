@@ -1,0 +1,67 @@
+/* Style for the entire quiz section */
+.quiz-assessment {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: #f8f8f8;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  /* Style for the questions */
+  .quiz-assessment p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Style for radio labels */
+  .radio-label {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* Style for radio buttons */
+  .radio-label input[type="radio"] {
+    display: none; /* Hide the default radio button */
+  }
+  
+  /* Style for custom radio button design */
+  .radio-label input[type="radio"] + span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+  }
+  
+  /* Style for selected radio button */
+  .radio-label input[type="radio"]:checked + span::before {
+    content: "\2713"; /* Checkmark symbol */
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
+  /* Style for total score display */
+  .quiz-assessment p.total-score {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  

@@ -18,6 +18,11 @@
   align-items: center;
 }
 
+/* ===== Quix BG */
+.GenAssessment-body-css{
+  background: linear-gradient(34deg,rgba(91, 16, 231, 0.095),rgba(63, 1, 185, 0.138));
+}
+
 /* ===== Result component bg img */
 .result_bg_img{
   

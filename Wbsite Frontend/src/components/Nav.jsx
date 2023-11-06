@@ -9,17 +9,17 @@ const Nav = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav>
+    <nav className='border-b-2 border-black bg-gradient-to-r from-[#373af189] to-[#fff]'>
 
     <div className='flex items-center justify-between px-6'>
       
       <div 
       className='hidden md:flex p-4 text-md lg:font-bold lg:text-xl flex-col md:flex-row items-center justify-evenly w-2/4'>
         <Link to='/' className='navlinkcss flexCenter'>Home</Link>
-        <Link to='movies/popular' className='navlinkcss'>Conditions A-Z</Link>
-        <Link to='movies/upcoming' className='navlinkcss'>Therapy</Link>
-        <Link to='movies/top_rated' className='navlinkcss'>Living Well</Link>
-        <Link to='movies/top_rated' className='navlinkcss'>Quiz</Link>
+        <Link to='quiz' className='navlinkcss'>Quiz</Link>
+        <Link to='dashboard' className='navlinkcss'>Dashboard</Link>
+        <Link to='/' className='navlinkcss'>Conditions A-Z</Link>
+        {/* <Link to='movies/top_rated' className='navlinkcss'>Living Well</Link> */}
       </div>
 
       <div className='hidden md:flex'>
@@ -54,10 +54,9 @@ const Nav = () => {
       <div className={` ${toggle ? "flex" : "hidden"} flex md:hidden  flex-col items-center justify-end bg-[#25242bdb] text-white rounded-lg p-4 z-50 absolute right-12 top-2  min-w-[168px] font-bold`}>
 
         <Link to='/' className='navlinkcss pt-2 px-2' onClick={() => setToggle(prev => !prev)}>Home</Link>
-        <Link to='/movies/popular' className='navlinkcss pt-2 px-2' onClick={() => setToggle(prev => !prev)}>Conditions A-Z</Link>
-        <Link to='/movies/upcoming' className='pt-2 navlinkcss' onClick={() => setToggle(prev => !prev)}>Therapy</Link>
-        <Link to='/movies/top_rated' className='navlinkcss pt-2 px-2' onClick={() => setToggle(prev => !prev)}>Living Well</Link>
-        <Link to='movies/top_rated' className='navlinkcss'>Quiz</Link>
+        <Link to='quiz' className='navlinkcss pt-2 px-2' onClick={() => setToggle(prev => !prev)}>Quiz</Link>
+        <Link to='dashboard' className='pt-2 navlinkcss' onClick={() => setToggle(prev => !prev)}>Dashboard</Link>
+        <Link to='/' className='navlinkcss pt-2 px-2' onClick={() => setToggle(prev => !prev)}>Conditions A-Z</Link>
 
       </div>
       {/* </div> */}

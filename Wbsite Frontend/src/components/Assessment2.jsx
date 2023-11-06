@@ -4,6 +4,8 @@ import { quizData2 } from '../constant'
 import "./Quiz2.css"; // Import your CSS file for styling
 import Result from './Result'
 
+import { quizData } from "../constant";
+
 function Assessement2() {
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
