@@ -10,3 +10,5 @@ Team members are as follows -
 
 The necessary information related to our smart India hackathon project are shared below.
 Problem statement - Our problem statement was based on Mental health issues and depression in children.
+
+DataBase - Firebase using fetch
