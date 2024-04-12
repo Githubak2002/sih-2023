@@ -5,5 +5,6 @@ import brain from '../assets/brain.png'
 import phy from '../assets/phy.png'
 import travel from '../assets/travel.png'
 import friends from '../assets/friends.png'
+import hero_img from '../assets/SIH.jpg'
 
-export {enjoy,maditation,adiction,phy,brain,travel,friends} 
+export {enjoy,maditation,adiction,phy,brain,travel,friends,hero_img} 
