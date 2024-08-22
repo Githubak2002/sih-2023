@@ -1,3 +1,5 @@
+change website UI like - https://dhairyamajmudar.github.io/Thrive
+
 # Smart India Hackathon (SIH)-2023
 # Team Name: YuvaShakti - 
 Team members are as follows -
