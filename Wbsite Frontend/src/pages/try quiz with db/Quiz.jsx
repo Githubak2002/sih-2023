@@ -91,6 +91,16 @@ const btnCss = ' hover:translate-y-[-4px] transition-all hover:scale-110 hover:t
 return (
   <section className="bg-[#b1a6ea4f] ">
     {/* <section className="bg-gradient-to-b from-[#a6ccea4f] to-[#8960ea3e]"> */}
+
+      <h2 className='text-center px-4 pt-5'>LEVEL 2—Depression—Child Age 11–17</h2>
+
+      <p className='text-center px-4 pt-5 max-w-[870px] mx-auto'>
+      Instructions to the child: On the DSM-5-TR Level 1 cross-cutting questionnaire that you just completed, you indicated 
+that during the past 2 weeks you have been bothered by “having little interest or pleasure in doing things” and/or 
+“feeling down, depressed, or hopeless” at a mild or greater level of severity. The questions below ask about these 
+feelings in more detail and especially how often you have been bothered by a list of symptoms during the past 7 days.  
+      </p>
+
       <h1 className='text-3xl font-bold text-center pt-3'>Assessment</h1>
       
       

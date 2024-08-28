@@ -23,6 +23,9 @@ function Quiz() {
   return (
 
     <section>
+
+
+
       <h2 style= {{textAlign:"center"}}> Assessment form </h2>
     {/* ----- Form -----  */}
     <main className="quiz-container">

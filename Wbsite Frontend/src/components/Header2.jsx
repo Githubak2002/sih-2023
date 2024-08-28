@@ -13,7 +13,7 @@ const Header2 = () => {
             <img className='md:h-60 h-28' src={enjoy} alt="" />
         </div>
 
-        <h2 className='text-xl font-semibold text-center mt-6 px-3'>The purpose of our lives is to be happy. Ek Smile De jara Muskura... 😊</h2>
+        {/* <h2 className='text-xl font-semibold text-center mt-6 px-3'>The purpose of our lives is to be happy. Ek Smile De jara Muskura... 😊</h2> */}
     </header>
   )
 }

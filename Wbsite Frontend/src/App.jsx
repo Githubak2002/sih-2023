@@ -18,13 +18,13 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} /> 
-          <Route path='quiz' element={< Quiz01 />} />
-          <Route path='result' element={<QuizResult />} /> 
+          <Route path='/quiz' element={< Quiz01 />} />
+          <Route path='/result' element={<QuizResult />} /> 
 
           {/* ===== previous temp quiz with result page ===== */}
           {/* <Route path='quiz' element={<Quiz />} /> */}
           {/* <Route path='result' element={<Result />} />  */}
-          <Route path='dashboard' element={<Dashboard />} /> 
+          <Route path='/dashboard' element={<Dashboard />} /> 
           
         </Routes>
 
