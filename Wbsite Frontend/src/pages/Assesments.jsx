@@ -6,6 +6,7 @@ const Assesments = () => {
   return (
     <section className='flexCenter flex-wrap gap-5 h-[60vh] sm:flex-row flex-col'>
       <Link to='#' className={LinkCss}>General Assesment</Link>
+      <Link to='#' className={LinkCss}>Emotional Behaviour Screening Test</Link>
       <Link to='/personalized' className={LinkCss}>Personalized Assesment</Link>
       
       <Outlet /> 
