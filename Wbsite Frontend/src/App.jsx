@@ -10,6 +10,8 @@ import Home from './components/Home'
 
 // created recently
 import Quiz01 from './pages/try quiz with db/Quiz'
+import Assesments from './pages/Assesments'
+import Personalized from './pages/Assements Gen and pers/Personalized'
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} /> 
           <Route path='/quiz' element={< Quiz01 />} />
+          <Route path='/personalized' element={< Personalized />} />
+          <Route path='/mentalhealth' element={< Assesments />} >
+          </Route>
           <Route path='/result' element={<QuizResult />} /> 
 
           {/* ===== previous temp quiz with result page ===== */}
