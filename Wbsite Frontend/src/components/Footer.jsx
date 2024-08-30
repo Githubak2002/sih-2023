@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className="bg-[#192a36] text-white py-12">
-      <h1 className="text-center text-3xl font-bold mb-8">VERYWELL MIND</h1>
+      <h1 className="text-center text-3xl font-bold mb-8">WellMind Junction</h1>
 
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row lg:justify-between">

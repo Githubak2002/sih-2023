@@ -14,7 +14,10 @@ const Nav = () => {
     <div className='flex items-center justify-between px-6'>
       
       <div className='hidden lg:flex'>
-        <h1 className='font-black text-lg'>WellMind Junction</h1>
+      <Link to='/' className='font-black text-lg '>
+        WellMind Junction
+    </Link>
+        {/* <h1 className='font-black text-lg'>WellMind Junction</h1> */}
       </div>
 
       <div className='hidden lg:flex p-4 text-sm lg:font-bold flex-col lg:flex-row items-center justify-evenly w-2/4'>
@@ -22,7 +25,7 @@ const Nav = () => {
         <Link to='mentalhealth' className='navlinkcss'>Know Your Mental Health</Link>
         {/* <Link to='dashboard' className='navlinkcss'>Dashboard</Link> */}
         {/* <Link to='/' className='navlinkcss'>Mental Health Conditions</Link> */}
-        <Link to='/' className='navlinkcss'>Education</Link>
+        <Link to='https://www.verywellmind.com' target='blank' className='navlinkcss'>Education</Link>
         <Link to='/' className='navlinkcss'>Doctor Hub</Link>
         <Link to='/dashboard' className='navlinkcss'>Dashboard</Link>
         {/* <Link to='movies/top_rated' className='navlinkcss'>Living Well</Link> */}
@@ -38,9 +41,9 @@ const Nav = () => {
 
     <div className='flex items-center justify-between relative sm:h-auto h-[50px]'>
 
-    <div className='ml-5 flex lg:hidden '>
+    <Link to='/' className='ml-5 flex lg:hidden '>
         WellMind Junction
-    </div>
+    </Link>
 
     <div className=' '>
 
@@ -56,7 +59,7 @@ const Nav = () => {
         <Link to='/' className='navlinkcss pt-2 px-2' onClick={() => setToggle(prev => !prev)}>Home</Link>
         <Link to='/mentalhealth' className='navlinkcss pt-2 px-2' onClick={() => setToggle(prev => !prev)}>Know Your Mental Health</Link>
         <Link to='/' className='pt-2 navlinkcss' onClick={() => setToggle(prev => !prev)}>Doctor</Link>
-        <Link to='/' className='pt-2 navlinkcss' onClick={() => setToggle(prev => !prev)}>Education</Link>
+        <Link to='https://www.verywellmind.com' target='blank' className='pt-2 navlinkcss' onClick={() => setToggle(prev => !prev)}>Education</Link>
         <Link to='dashboard' className='pt-2 navlinkcss' onClick={() => setToggle(prev => !prev)}>Dashboard</Link>
   
 

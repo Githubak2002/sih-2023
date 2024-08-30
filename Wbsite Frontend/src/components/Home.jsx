@@ -7,12 +7,18 @@ import AbtPrivacy from './AbtPrivacy'
 import GenSol from './GenSol'
 import { Link } from 'react-router-dom'
 import { hltArr } from '../constants/const'
+import chatBot from '../../public/chatbotpng.png'
 const Home = () => {
   return (
-    <section className='max-w-[1280px] mx-auto '>
+    <section className='relative max-w-[1280px] mx-auto '>
 
       <Header />
       <Header2 />
+
+      {/* === chatobt img === */}
+        <Link to="https://drive.google.com/drive/folders/136wvKezTFu3HTFQYsVhdgM6D8Em4cfGd?usp=drive_link" target='blank'>
+        <img className=' bg-[#00000038] p-2 rounded-full fixed h-10 w-10 bottom-5 right-5 sm:bottom-10 sm:right-10' src={chatBot} alt="chatBot" />
+        </Link>
      
 
       <main className='bg-[#7231fd0d] my-10 px-4 py-6 flex sm:flex-row flex-col border-y-2 border-black'>
