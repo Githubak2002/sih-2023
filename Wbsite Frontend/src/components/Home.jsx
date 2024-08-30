@@ -16,7 +16,8 @@ const Home = () => {
       <Header2 />
 
       {/* === chatobt img === */}
-        <Link to="https://drive.google.com/drive/folders/136wvKezTFu3HTFQYsVhdgM6D8Em4cfGd?usp=drive_link" target='blank'>
+        <Link to="https://chatgpt.com/g/g-KHlGIY3kv-arogya" target='blank'>
+        {/* <Link to="https://drive.google.com/drive/folders/136wvKezTFu3HTFQYsVhdgM6D8Em4cfGd?usp=drive_link" target='blank'> */}
         <img className=' bg-[#00000038] p-2 rounded-full fixed h-14 w-14 bottom-5 right-5 sm:bottom-10 sm:right-10' src={chatBot} alt="chatBot" />
         </Link>
      
